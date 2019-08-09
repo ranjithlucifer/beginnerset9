@@ -1,9 +1,2 @@
-n1=list(map(int,input().split()))
-n2=list(map(int,input().split()))
-n3=list(map(int,input().split()))
-a1=n1[1]-n1[0]
-a2=n2[1]-n2[0]
-a3=n3[1]-n3[0]
-print(a1)
-print(a2)
-print(a3)
+n1,n2=list(map(int,input().split()))
+print(n2-n1)
